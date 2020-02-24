@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2013 The Android Open Source Project
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.bluetoothlegatt"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="18"
+23-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="24" />
+24-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
+25
+26    <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
+27
+28
+29    <!--
+30    Declare this required feature if you want to make the app available to BLE-capable
+31    devices only.  If you want to make your app available to devices that don't support BLE,
+32    you should omit this in the manifest.  Instead, determine BLE capability by using
+33    PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE)
+34    -->
+35    <uses-feature
+35-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:30:5-32:35
+36        android:name="android.hardware.bluetooth_le"
+36-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:31:9-53
+37        android:required="true" />
+37-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:32:9-32
+38
+39    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+39-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:34:5-81
+39-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:34:22-78
+40    <uses-permission android:name="android.permission.BLUETOOTH" />
+40-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:35:5-68
+40-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:35:22-65
+41    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+41-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:36:5-74
+41-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:36:22-71
+42    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+42-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:37:5-79
+42-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:37:22-76
+43    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+43-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:38:5-81
+43-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:38:22-78
+44
+45    <application
+45-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:40:5-62:19
+46        android:debuggable="true"
+47        android:icon="@drawable/ic_launcher"
+47-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:41:9-45
+48        android:label="@string/app_name"
+48-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:42:9-41
+49        android:testOnly="true"
+50        android:theme="@android:style/Theme.Holo.Light" >
+50-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:43:9-56
+51        <activity
+51-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:44:9-52:20
+52            android:name="com.example.android.bluetoothlegatt.DeviceScanActivity"
+52-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:45:13-47
+53            android:label="@string/app_name" >
+53-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:46:13-45
+54            <intent-filter>
+54-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:47:13-51:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:48:17-69
+55-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:48:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:50:17-77
+57-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:50:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:53:9-56:61
+61            android:name="com.example.android.bluetoothlegatt.SensorActivity"
+61-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:54:13-43
+62            android:label="SensorActivity"
+62-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:55:13-43
+63            android:screenOrientation="portrait" />
+63-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:56:13-49
+64
+65        <service
+65-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:58:9-60:38
+66            android:name="com.example.android.bluetoothlegatt.BluetoothLeService"
+66-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:59:13-47
+67            android:enabled="true" />
+67-->C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:60:13-35
+68    </application>
+69
+70</manifest>

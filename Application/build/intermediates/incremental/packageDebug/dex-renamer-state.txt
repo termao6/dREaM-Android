@@ -1,0 +1,4 @@
+#Mon Feb 17 10:53:26 EST 2020
+base.0=C\:\\Users\\Teresa\\AndroidStudioProjects\\MAXREFDES100_Android_SRC_3.0.1_5-11-17\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Teresa\\AndroidStudioProjects\\MAXREFDES100_Android_SRC_3.0.1_5-11-17\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

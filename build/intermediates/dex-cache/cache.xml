@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\exploded-aar\com.android.support\support-v13\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ca74722504f90166103d01edcdfdb93192eb1cba">
+        <dex dex="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_a067547c939754ba2ab8dd9aa315d51adf69a23f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Teresa\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\pre-dexed\debug\support-annotations-24.1.1_5d2f11c8565e548e46af75851312b322e39d055f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.1.1_3f55f3412b429200fadfa078cdca7942ab4e43ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.1.1_de9e5fec59b09203a230e188d022aa6240d7e4b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.1_14937568d68e3285ba928e6a080b5aeac7d9cf6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.1.1_1d126ff7b2ab7c2e7751a4cbfbc93bf45de0cee2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_9e0a019f724f1c231fb02c2f5fbc719b5c716ad0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\exploded-aar\com.android.support\support-v13\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="327f68d58bb39fb8b585150596b313541f8fdb87">
+        <dex dex="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\pre-dexed\debug\com.android.support-support-v13-24.1.1_a4d35538fef5056e8ffeb00b57c0f480c1eaf0a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.1.1_f22cced9c970c3d80838553d897d0cb71ade300c.jar" />
+    </item>
+
+</items>

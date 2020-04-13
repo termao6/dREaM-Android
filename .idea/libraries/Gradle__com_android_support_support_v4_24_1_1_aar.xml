@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:support-v4:24.1.1@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbbffefc3279e16b8cbe18aece85cab6/support-v4-24.1.1/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/153a905321d93d1db6126086426588dc/support-v4-24.1.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbbffefc3279e16b8cbe18aece85cab6/support-v4-24.1.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbbffefc3279e16b8cbe18aece85cab6/support-v4-24.1.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbbffefc3279e16b8cbe18aece85cab6/support-v4-24.1.1/jars/libs/internal_impl-24.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/153a905321d93d1db6126086426588dc/support-v4-24.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/153a905321d93d1db6126086426588dc/support-v4-24.1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/153a905321d93d1db6126086426588dc/support-v4-24.1.1/jars/libs/internal_impl-24.1.1.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-v4/24.1.1/be6e9aab08a72b0de9fe43088640e3617cf2e032/support-v4-24.1.1-javadoc.jar!/" />

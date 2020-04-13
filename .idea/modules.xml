@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Application/Application.iml" filepath="$PROJECT_DIR$/Application/Application.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MAXREFDES100_Android_SRC_3.0.1_5-11-17.iml" filepath="$PROJECT_DIR$/MAXREFDES100_Android_SRC_3.0.1_5-11-17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Application/Application.iml" filepath="$PROJECT_DIR$/Application/Application.iml" group="dREaM-Android/Application" />
+      <module fileurl="file://$PROJECT_DIR$/dREaM-Android.iml" filepath="$PROJECT_DIR$/dREaM-Android.iml" group="dREaM-Android" />
     </modules>
   </component>
 </project>

@@ -89,6 +89,7 @@ public class SensorActivity extends Activity {
     protected TextView mClickStartBtn2;
     protected TextView mAccelMissionStopped;
     protected TextView mECGMissionStopped;
+    protected TextView mREMState;
 
     /// accelerometer
     protected LineGraphing lineGraphingAccelerometer;
@@ -189,6 +190,7 @@ public class SensorActivity extends Activity {
         mClickStartBtn2 = (TextView) findViewById(R.id.clickStartBtn2);
         mAccelMissionStopped = (TextView) findViewById(R.id.textView7);
         mECGMissionStopped = (TextView) findViewById(R.id.textView8);
+        mREMState = (TextView) findViewById(R.id.remState);
         /// accelerometer
         lineGraphingAccelerometer = (LineGraphing) findViewById(R.id.lineGraphingAccelerometer);
         /// pressure
@@ -478,6 +480,7 @@ public class SensorActivity extends Activity {
             linePointCollectionY.addpoint(y);
             linePointCollectionZ.addpoint(z);
             lineGraphingAccelerometer.plotPointCollection();
+            displayREMState(x, y, z);
         }
         // pressure
         if (characteristic.compareTo(UUID.fromString(BLE_MAXIM_HSP_PRESSURE_CHARACTERISTIC)) == 0) {
@@ -648,5 +651,17 @@ public class SensorActivity extends Activity {
             mClickStartBtn2.setText("Stop Mission");
             EnableMissionButton(false);
         }
+    }
+
+    private void displayREMState(double x_accel, double y_accel, double z_accel) {
+        int heartrate = 60;
+        double var = 2.0886 - (0.1648 * x_accel) + (0.0749 * y_accel) - (0.0303 * z_accel) - (0.0140 * heartrate);
+        if (1./(1+ Math.exp(-1*var)) < 0.5) {
+            mREMState.setText("IN REM");
+        }
+        else {
+            mREMState.setText("NOT IN REM");
+        }
+
     }
 }

@@ -1,4 +1,4 @@
-#Sun Feb 23 14:00:11 EST 2020
-base.0=C\:\\Users\\Teresa\\AndroidStudioProjects\\MAXREFDES100_Android_SRC_3.0.1_5-11-17\\Application\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Sun Apr 12 19:54:30 PDT 2020
+base.0=/Users/teresa/StudioProjects/dREaM-Android/Application/build/intermediates/dex/debug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

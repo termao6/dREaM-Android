@@ -525,4 +525,12 @@
     android:id="@+id/clickStartBtn2"
     android:backgroundTint="#00b2a9" />
 
+    <TextView
+        android:id="@+id/remState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="REM"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
 </LinearLayout>

@@ -1,129 +1,133 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:16:1-64:12
-INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:16:1-64:12
-INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:16:1-64:12
-MERGED from [com.android.support:support-v13:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\fe73cd6745c05ca0164edea8b4e0b590\support-v13-24.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\44d06c1ca6ecab9586dde2b8c8b2de35\appcompat-v7-24.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\0861fb140fce9063c5c7390f2812f9ba\animated-vector-drawable-24.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\506bebacd7a85ba9f9af430457f3420d\support-vector-drawable-24.1.1\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\dbbffefc3279e16b8cbe18aece85cab6\support-v4-24.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:cardview-v7:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\acc054740859c3c06883d67a4482e5d9\cardview-v7-24.1.1\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:16:1-64:12
-INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:16:1-64:12
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:16:1-64:12
+INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:16:1-64:12
+INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:16:1-64:12
+INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:16:1-64:12
+MERGED from [com.android.support:support-v13:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/2ad9c32a9659f7c8e4dd704f43bf4d94/support-v13-24.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/512cd65c59fc4aea08442d96d6229cc7/appcompat-v7-24.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/f6126bb15969c6bee41b6ae8a1cd132d/animated-vector-drawable-24.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/95f9d68d3ccbecaacf5c223196a8ad38/support-vector-drawable-24.1.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/153a905321d93d1db6126086426588dc/support-v4-24.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:cardview-v7:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/a0e9e6a93b9de7cbcf6f9083edd49236/cardview-v7-24.1.1/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:16:1-64:12
+INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:16:1-64:12
+INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:16:1-64:12
 	package
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:17:5-50
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:17:5-50
+		INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:19:5-30
-		INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:19:5-30
+		INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:16:11-69
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:16:11-69
 	android:versionCode
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:18:5-28
-		INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:18:5-28
+		INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
 uses-feature#android.hardware.bluetooth_le
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:30:5-32:35
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:30:5-32:35
 	android:required
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:32:9-32
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:32:9-32
 	android:name
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:31:9-53
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:31:9-53
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:34:5-81
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:34:5-81
 	android:name
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:34:22-78
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:34:22-78
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:35:5-68
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:35:5-68
 	android:name
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:35:22-65
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:35:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:36:5-74
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:36:5-74
 	android:name
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:36:22-71
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:36:22-71
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:37:5-79
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:37:5-79
 	android:name
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:37:22-76
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:37:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:38:5-81
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:38:5-81
 	android:name
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:38:22-78
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:38:22-78
 application
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:40:5-62:19
-MERGED from [com.android.support:support-v13:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\fe73cd6745c05ca0164edea8b4e0b590\support-v13-24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v13:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\fe73cd6745c05ca0164edea8b4e0b590\support-v13-24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\44d06c1ca6ecab9586dde2b8c8b2de35\appcompat-v7-24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\44d06c1ca6ecab9586dde2b8c8b2de35\appcompat-v7-24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\0861fb140fce9063c5c7390f2812f9ba\animated-vector-drawable-24.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\0861fb140fce9063c5c7390f2812f9ba\animated-vector-drawable-24.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\506bebacd7a85ba9f9af430457f3420d\support-vector-drawable-24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\506bebacd7a85ba9f9af430457f3420d\support-vector-drawable-24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\dbbffefc3279e16b8cbe18aece85cab6\support-v4-24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\dbbffefc3279e16b8cbe18aece85cab6\support-v4-24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:cardview-v7:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\acc054740859c3c06883d67a4482e5d9\cardview-v7-24.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\acc054740859c3c06883d67a4482e5d9\cardview-v7-24.1.1\AndroidManifest.xml:22:5-20
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:40:5-62:19
+MERGED from [com.android.support:support-v13:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/2ad9c32a9659f7c8e4dd704f43bf4d94/support-v13-24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v13:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/2ad9c32a9659f7c8e4dd704f43bf4d94/support-v13-24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/512cd65c59fc4aea08442d96d6229cc7/appcompat-v7-24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/512cd65c59fc4aea08442d96d6229cc7/appcompat-v7-24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/f6126bb15969c6bee41b6ae8a1cd132d/animated-vector-drawable-24.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/f6126bb15969c6bee41b6ae8a1cd132d/animated-vector-drawable-24.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/95f9d68d3ccbecaacf5c223196a8ad38/support-vector-drawable-24.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/95f9d68d3ccbecaacf5c223196a8ad38/support-vector-drawable-24.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/153a905321d93d1db6126086426588dc/support-v4-24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/153a905321d93d1db6126086426588dc/support-v4-24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/a0e9e6a93b9de7cbcf6f9083edd49236/cardview-v7-24.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/a0e9e6a93b9de7cbcf6f9083edd49236/cardview-v7-24.1.1/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:42:9-41
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:42:9-41
 	android:icon
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:41:9-45
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:41:9-45
 	android:theme
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:43:9-56
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:43:9-56
 activity#com.example.android.bluetoothlegatt.DeviceScanActivity
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:44:9-52:20
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:44:9-52:20
 	android:label
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:46:13-45
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:46:13-45
 	android:name
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:45:13-47
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:45:13-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:47:13-51:29
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:47:13-51:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:48:17-69
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:48:25-66
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:50:17-77
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:50:27-74
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:50:27-74
 activity#com.example.android.bluetoothlegatt.SensorActivity
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:53:9-56:61
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:53:9-56:61
 	android:screenOrientation
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:56:13-49
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:56:13-49
 	android:label
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:55:13-43
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:55:13-43
 	android:name
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:54:13-43
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:54:13-43
 service#com.example.android.bluetoothlegatt.BluetoothLeService
-ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:58:9-60:38
+ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:58:9-60:38
 	android:enabled
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:60:13-35
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:60:13-35
 	android:name
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml:59:13-47
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml:59:13-47
 uses-sdk
-INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
-MERGED from [com.android.support:support-v13:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\fe73cd6745c05ca0164edea8b4e0b590\support-v13-24.1.1\AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:support-v13:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\fe73cd6745c05ca0164edea8b4e0b590\support-v13-24.1.1\AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\44d06c1ca6ecab9586dde2b8c8b2de35\appcompat-v7-24.1.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\44d06c1ca6ecab9586dde2b8c8b2de35\appcompat-v7-24.1.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\0861fb140fce9063c5c7390f2812f9ba\animated-vector-drawable-24.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\0861fb140fce9063c5c7390f2812f9ba\animated-vector-drawable-24.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\506bebacd7a85ba9f9af430457f3420d\support-vector-drawable-24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\506bebacd7a85ba9f9af430457f3420d\support-vector-drawable-24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\dbbffefc3279e16b8cbe18aece85cab6\support-v4-24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\dbbffefc3279e16b8cbe18aece85cab6\support-v4-24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:cardview-v7:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\acc054740859c3c06883d67a4482e5d9\cardview-v7-24.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\acc054740859c3c06883d67a4482e5d9\cardview-v7-24.1.1\AndroidManifest.xml:20:5-43
-INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
+INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/2ad9c32a9659f7c8e4dd704f43bf4d94/support-v13-24.1.1/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/2ad9c32a9659f7c8e4dd704f43bf4d94/support-v13-24.1.1/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/512cd65c59fc4aea08442d96d6229cc7/appcompat-v7-24.1.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/512cd65c59fc4aea08442d96d6229cc7/appcompat-v7-24.1.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/f6126bb15969c6bee41b6ae8a1cd132d/animated-vector-drawable-24.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/f6126bb15969c6bee41b6ae8a1cd132d/animated-vector-drawable-24.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/95f9d68d3ccbecaacf5c223196a8ad38/support-vector-drawable-24.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/95f9d68d3ccbecaacf5c223196a8ad38/support-vector-drawable-24.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/153a905321d93d1db6126086426588dc/support-v4-24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/153a905321d93d1db6126086426588dc/support-v4-24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:cardview-v7:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/a0e9e6a93b9de7cbcf6f9083edd49236/cardview-v7-24.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/a0e9e6a93b9de7cbcf6f9083edd49236/cardview-v7-24.1.1/AndroidManifest.xml:20:5-43
+INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v13:24.1.1] C:\Users\Teresa\.gradle\caches\transforms-2\files-2.1\fe73cd6745c05ca0164edea8b4e0b590\support-v13-24.1.1\AndroidManifest.xml:23:9-52
+		ADDED from [com.android.support:support-v13:24.1.1] /Users/teresa/.gradle/caches/transforms-2/files-2.1/2ad9c32a9659f7c8e4dd704f43bf4d94/support-v13-24.1.1/AndroidManifest.xml:23:9-52
 	android:targetSdkVersion
-		INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
+		INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Teresa\AndroidStudioProjects\MAXREFDES100_Android_SRC_3.0.1_5-11-17\Application\src\main\AndroidManifest.xml
+		INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/teresa/StudioProjects/dREaM-Android/Application/src/main/AndroidManifest.xml

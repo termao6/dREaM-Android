@@ -47,145 +47,8 @@
 
 
     <!-- Temperature Top (WSN Temperature) -->
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:id="@+id/relativeLayout1"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="5dp"
-        android:background="#f4f4f4">
-
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:id="@+id/imageView"
-            android:layout_marginTop="7dp"
-            android:background="@drawable/temperature"
-            android:layout_gravity="left"
-            android:layout_marginLeft="5dp" />
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_alignParentStart="false"
-            android:layout_toEndOf="@id/imageView"
-            android:layout_alignParentEnd="false"
-            android:id="@+id/layout1">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="MAX30205 1"
-                android:textSize="15sp"
-                android:id="@+id/textView3"
-                android:textColor="#0a5dff" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="---- F"
-                android:textSize="22dp"
-                android:id="@+id/textTempTop"
-                android:textColor="#5e5e5e" />
-
-        </LinearLayout>
-
-        <view
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:layout_marginRight="5dp"
-            class="graphing.LineGraphing"
-            android:id="@+id/lineGraphingTemperature1"
-            android:layout_toEndOf="@id/layout1" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="-- --"
-            android:textSize="10dp"
-            android:id="@+id/textTempTopRaw"
-            android:textColor="#5e5e5e"
-            android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/layout1" />
-    </RelativeLayout>
 
     <!-- Temperature Bottom (WSN Humidity) -->
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:id="@+id/relativeLayout2"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="5dp"
-        android:background="#f4f4f4">
-
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:id="@+id/imageView2"
-            android:layout_marginTop="7dp"
-            android:background="@drawable/temperature"
-            android:layout_gravity="left"
-            android:layout_marginLeft="5dp" />
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_alignParentStart="false"
-            android:layout_toEndOf="@id/imageView2"
-            android:layout_alignParentEnd="false"
-            android:id="@+id/layout2">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="MAX30205 2"
-                android:textSize="15sp"
-                android:id="@+id/textView2"
-                android:textColor="#0a5dff" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="---- F"
-                android:textSize="22dp"
-                android:id="@+id/textTempBottom"
-                android:textColor="#5e5e5e" />
-        </LinearLayout>
-
-        <view
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:layout_marginRight="5dp"
-            class="graphing.LineGraphing"
-            android:id="@+id/lineGraphingTemperature2"
-            android:layout_toEndOf="@id/layout2" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="-- --"
-            android:textSize="10dp"
-            android:id="@+id/textTempBottomRaw"
-            android:textColor="#5e5e5e"
-            android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/layout2" />
-    </RelativeLayout>
-
-
-
-
-
-
 
 
     <!-- LIS2DH (WSN Light) -->
@@ -295,85 +158,6 @@
 
 
     <!-- BMP280 (WSN Pressure) -->
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="5dp"
-        android:id="@+id/relativeLayout4"
-        android:background="#f4f4f4">
-
-        <ImageView
-            android:layout_width="35dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:id="@+id/imageView4"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/pressure"
-            android:layout_gravity="left"
-            android:layout_marginLeft="7dp"
-            android:layout_marginRight="3dp" />
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginTop="0dp"
-            android:layout_alignParentStart="false"
-            android:layout_toEndOf="@id/imageView4"
-            android:layout_alignParentEnd="false"
-            android:layout_marginLeft="5dp"
-            android:id="@+id/layout4">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="BMP280"
-                android:textSize="17sp"
-                android:id="@+id/textView"
-                android:textColor="#0a5dff" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="---- Pa"
-                android:textSize="15dp"
-                android:id="@+id/textPressure"
-                android:textColor="#5e5e5e" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="---- F"
-                android:textSize="22dp"
-                android:id="@+id/textTemperature"
-                android:textColor="#5e5e5e"
-                android:visibility="gone" />
-        </LinearLayout>
-
-        <view
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:layout_marginRight="5dp"
-            class="graphing.LineGraphing"
-            android:id="@+id/lineGraphingPressure"
-            android:layout_toEndOf="@id/layout4" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="-- --"
-            android:textSize="10dp"
-            android:id="@+id/textPressureRaw"
-            android:textColor="#5e5e5e"
-            android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/layout4" />
-    </RelativeLayout>
-
 
 
     <!-- ECG Heartrate -->
@@ -518,12 +302,12 @@
     </RelativeLayout>
 
     <Button
-    style="?android:attr/buttonStyleSmall"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Start Mission"
-    android:id="@+id/clickStartBtn2"
-    android:backgroundTint="#00b2a9" />
+        android:id="@+id/clickStartBtn2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00b2a9"
+        android:text="Start" />
 
     <TextView
         android:id="@+id/remState"

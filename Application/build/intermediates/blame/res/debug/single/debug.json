@@ -4,12 +4,12 @@
         "source": "/Users/teresa/StudioProjects/dREaM-Android/Application/src/main/res/menu/main.xml"
     },
     {
-        "merged": "/Users/teresa/StudioProjects/dREaM-Android/Application/build/intermediates/res/merged/debug/drawable-hdpi_tile.9.png.flat",
-        "source": "/Users/teresa/StudioProjects/dREaM-Android/Application/src/main/res/drawable-hdpi/tile.9.png"
-    },
-    {
         "merged": "/Users/teresa/StudioProjects/dREaM-Android/Application/build/intermediates/res/merged/debug/layout_activity_sensor.xml.flat",
         "source": "/Users/teresa/StudioProjects/dREaM-Android/Application/src/main/res/layout/activity_sensor.xml"
+    },
+    {
+        "merged": "/Users/teresa/StudioProjects/dREaM-Android/Application/build/intermediates/res/merged/debug/drawable-hdpi_tile.9.png.flat",
+        "source": "/Users/teresa/StudioProjects/dREaM-Android/Application/src/main/res/drawable-hdpi/tile.9.png"
     },
     {
         "merged": "/Users/teresa/StudioProjects/dREaM-Android/Application/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
@@ -20,12 +20,12 @@
         "source": "/Users/teresa/StudioProjects/dREaM-Android/Application/src/main/res/drawable-hdpi/popup_green.9.png"
     },
     {
-        "merged": "/Users/teresa/StudioProjects/dREaM-Android/Application/build/intermediates/res/merged/debug/drawable-hdpi_sliderscreen_max30001.png.flat",
-        "source": "/Users/teresa/StudioProjects/dREaM-Android/Application/src/main/res/drawable-hdpi/sliderscreen_max30001.png"
-    },
-    {
         "merged": "/Users/teresa/StudioProjects/dREaM-Android/Application/build/intermediates/res/merged/debug/layout_gatt_services_characteristics.xml.flat",
         "source": "/Users/teresa/StudioProjects/dREaM-Android/Application/src/main/res/layout/gatt_services_characteristics.xml"
+    },
+    {
+        "merged": "/Users/teresa/StudioProjects/dREaM-Android/Application/build/intermediates/res/merged/debug/drawable-hdpi_sliderscreen_max30001.png.flat",
+        "source": "/Users/teresa/StudioProjects/dREaM-Android/Application/src/main/res/drawable-hdpi/sliderscreen_max30001.png"
     },
     {
         "merged": "/Users/teresa/StudioProjects/dREaM-Android/Application/build/intermediates/res/merged/debug/drawable-hdpi_sliderscreen_max30101.png.flat",

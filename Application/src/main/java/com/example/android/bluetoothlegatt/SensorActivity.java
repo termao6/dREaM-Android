@@ -264,7 +264,7 @@ public class SensorActivity extends Activity {
     @Override
     protected void onPause() {
         super.onPause();
-        unregisterReceiver(mGattUpdateReceiver);
+//        unregisterReceiver(mGattUpdateReceiver);
     }
 
     /**
@@ -448,7 +448,7 @@ public class SensorActivity extends Activity {
         float x = 0;
         float y = 0;
         float z = 0;
-        float value = 0;
+        float hr = 0;
         String str = "";
         str = bytesToHex(data);
 //        // temperature top
@@ -480,7 +480,7 @@ public class SensorActivity extends Activity {
             linePointCollectionY.addpoint(y);
             linePointCollectionZ.addpoint(z);
             lineGraphingAccelerometer.plotPointCollection();
-            displayREMState(x, y, z);
+            displayREMState(x, y, z, hr);
         }
 //        // pressure
 //        if (characteristic.compareTo(UUID.fromString(BLE_MAXIM_HSP_PRESSURE_CHARACTERISTIC)) == 0) {
@@ -506,9 +506,10 @@ public class SensorActivity extends Activity {
         // heartrate
         if (characteristic.compareTo(UUID.fromString(BLE_MAXIM_HSP_HEARTRATE_CHARACTERISTIC)) == 0) {
             mTextHeartRateRaw.setText(str);
-            value = CalculateHeartRate(data);
-            mTextHeartRate.setText(String.format("%.1f", value));
-            linePointCollectionHeartrate.addpoint(value);
+//            hr = CalculateHeartRate(data);
+            hr = 60;
+            mTextHeartRate.setText(String.format("%.1f", hr));
+            linePointCollectionHeartrate.addpoint(hr);
             lineGraphingHeartrate.plotPointCollection();
         }
     }
@@ -638,25 +639,25 @@ public class SensorActivity extends Activity {
         byte[] data = new byte[1];
         //if (isMissionButtonEnabled == false) return;
 
-        if (mClickStartBtn2.getText().toString().equalsIgnoreCase("Stop Mission") == true) {
+        if (mClickStartBtn2.getText().toString().equalsIgnoreCase("Stop") == true) {
             // stop
             data[0] = 0x00;
             mBluetoothLeService.writeCharacteristic(UUID.fromString(BLE_MAXIM_HSP_SERVICE), UUID.fromString(BLE_MAXIM_HSP_COMMAND_CHARACTERISTIC), data);
-            mClickStartBtn2.setText("Start Mission");
+            mClickStartBtn2.setText("Start");
             EnableMissionButton(false);
         } else {
             // start
             data[0] = 0x01;
             mBluetoothLeService.writeCharacteristic(UUID.fromString(BLE_MAXIM_HSP_SERVICE), UUID.fromString(BLE_MAXIM_HSP_COMMAND_CHARACTERISTIC), data);
-            mClickStartBtn2.setText("Stop Mission");
+            mClickStartBtn2.setText("Stop");
             EnableMissionButton(false);
         }
     }
 
-    private void displayREMState(double x_accel, double y_accel, double z_accel) {
-        int heartrate = 60;
-        double var = 2.0886 - (0.1648 * x_accel) + (0.0749 * y_accel) - (0.0303 * z_accel) - (0.0140 * heartrate);
-        if (1./(1+ Math.exp(-1*var)) < 0.5) {
+    private void displayREMState(double xaccel, double yaccel, double zaccel, double heartrate) {
+//        int heartrate = 60;
+        double var = -2.3112 - 0.77*xaccel + 0.2426*yaccel + 0.1077*zaccel + 0.0181*heartrate;
+        if (1./(1+ Math.exp(-1*var)) < 0.2291) {
             mREMState.setText("IN REM");
         }
         else {
